@@ -1,18 +1,20 @@
+<!--
+ * @Author: qin
+ * @Date: 2022-05-01 12:46:22
+ * @LastEditTime: 2022-05-01 17:15:19
+ * @FilePath: \vueProject\p-demo\src\views\Home.vue
+ *  -> The best way to explain it is to do it
+-->
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>home page</h1>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
+};
 </script>
